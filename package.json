@@ -27,7 +27,7 @@
     "@vercel/postgres": "^0.3.0",
     "autoprefixer": "10.4.14",
     "encoding": "^0.1.13",
-    "eslint": "8.41.0",
+    "eslint": "8.42.0",
     "eslint-config-ethang": "^5.0.7",
     "eslint-config-next": "13.4.4",
     "eslint-plugin-tailwindcss": "^3.12.1",

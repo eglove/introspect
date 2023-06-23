@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@clerk/nextjs':
     specifier: ^4.21.8
@@ -51,8 +47,8 @@ dependencies:
     specifier: ^1.0.1
     version: 1.0.1
   '@vercel/postgres':
-    specifier: ^0.3.2
-    version: 0.3.2
+    specifier: ^0.4.0
+    version: 0.4.0
   autoprefixer:
     specifier: 10.4.14
     version: 10.4.14(postcss@8.4.24)
@@ -367,8 +363,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: false
 
-  /@neondatabase/serverless@0.4.15:
-    resolution: {integrity: sha512-fTTcnfj6z4gpOREF3fbzPYltt5vJKB3G9OdfV4diiO45mBAi//0n/ViOirYm4bGxi0luzszf9jGe3BP6hsQ7Ig==}
+  /@neondatabase/serverless@0.4.19:
+    resolution: {integrity: sha512-atzpP9uBLrWPokXZdVy2iNPmmxVx51HXhrEObDb4KXmsyGEkGhCcb6cs51LA/oyXwjJUeB4AreOoVgMcPAIv5g==}
     dependencies:
       '@types/pg': 8.6.6
     dev: false
@@ -889,11 +885,11 @@ packages:
     resolution: {integrity: sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==}
     dev: false
 
-  /@vercel/postgres@0.3.2:
-    resolution: {integrity: sha512-FZ/EWoxdALIh+N0wq3NWSA+YWm50MTBo75xOpVGSsv0zcgkt39kSSzO74H1graq+k/5dWyuadTVCnmlT5IbFYQ==}
+  /@vercel/postgres@0.4.0:
+    resolution: {integrity: sha512-GemRRKvLi90BC511WQzt5tfVLPNOQ9eNbbbaPquSgasm5ogfWLtjJSbNUD4jYEbs9IxbNovKqr0H0CAjJzOAyw==}
     engines: {node: '>=14.6'}
     dependencies:
-      '@neondatabase/serverless': 0.4.15
+      '@neondatabase/serverless': 0.4.19
       bufferutil: 4.0.7
       utf-8-validate: 6.0.3
       ws: 8.13.0(bufferutil@4.0.7)(utf-8-validate@6.0.3)
@@ -4484,3 +4480,7 @@ packages:
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

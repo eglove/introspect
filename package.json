@@ -31,7 +31,7 @@
     "eslint-config-ethang": "^6.0.1",
     "eslint-config-next": "13.4.8",
     "eslint-plugin-tailwindcss": "^3.13.0",
-    "jsonwebtoken": "^9.0.0",
+    "jsonwebtoken": "^9.0.1",
     "lodash": "^4.17.21",
     "luxon": "^3.3.0",
     "meilisearch": "^0.33.0",

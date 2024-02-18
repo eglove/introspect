@@ -17,10 +17,12 @@
     "extends": "ethang"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.2.9",
     "@tanstack/react-router": "^1.16.6",
     "@tanstack/react-router-server": "^1.16.6",
     "@tanstack/router-devtools": "^1.16.6",
     "@tanstack/router-vite-plugin": "^1.16.5",
+    "framer-motion": "^11.0.5",
     "get-port": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

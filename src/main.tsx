@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 import { mainLayout } from './components/layout/main-layout';
 import { indexRoute } from './components/pages';
 import { aboutRoute } from './components/pages/about';
+import {NextUIProvider} from "@nextui-org/react";
 
 const routeTree = mainLayout.addChildren([indexRoute, aboutRoute]);
 
@@ -22,7 +23,9 @@ if (rootElement !== null && !rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
     <StrictMode>
-      <RouterProvider router={router} />
+      <NextUIProvider>
+        <RouterProvider router={router} />
+      </NextUIProvider>
     </StrictMode>,
   );
 }

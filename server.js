@@ -69,7 +69,7 @@ export async function createServer(
 
       const entry = await (async () => {
         if (!isProduction) {
-          return vite.ssrLoadModule('/src/entry-server.js');
+          return vite.ssrLoadModule('/src/entry-server.tsx');
         }
         return import('./dist/server/entry-server.js');
       })();

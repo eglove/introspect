@@ -26,6 +26,7 @@ export async function createServer(
       root,
       server: {
         hmr: {
+
           port: hmrPort,
         },
         middlewareMode: true,
@@ -87,9 +88,11 @@ export async function createServer(
 }
 
 if (!isTest) {
+  const serverPort = await getPort({ port: portNumbers(3000, 3100) });
+
   createServer().then(async ({ app }) => {
-    return app.listen(await getPort({ port: portNumbers(3000, 3100) }), () => {
-      console.log('Client Server: http://localhost:3000');
+    return app.listen(serverPort, () => {
+      console.log(`Client Server: http://localhost:${serverPort}`);
     });
   });
 }
